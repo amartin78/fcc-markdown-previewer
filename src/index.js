@@ -4,6 +4,16 @@ import './index.css';
 
 import marked from 'marked';
 
+let renderer = new marked.Renderer();
+renderer.link = function(href, title, text) {
+    let link = marked.Renderer.prototype.link.apply(this, arguments);
+    return link.replace("<a", "<a target='_blank'");
+};
+
+marked.setOptions({
+    breaks: true,
+    renderer: renderer,
+});
 
 class Main extends React.Component {
     constructor() {
@@ -19,7 +29,6 @@ class Main extends React.Component {
             '**this is bold text**'
         }
         this.handleChange = this.handleChange.bind(this);
-        // this.initialText = this.initialText.bind(this);
     }
 
     handleChange(event) {
@@ -28,20 +37,7 @@ class Main extends React.Component {
         });
     }
 
-    // initialText = () => {
-    //     this.setState({
-    //         input: '',
-    //     });
-    // }
-
-    componentDidMount() {
-        // this.initialText();
-    }
-
     render() {
-        // const arr = this.state.input.split('\n').map(s => s + "\n");;
-        // console.log(arr[0])
-
         return (
             <div>
                 <textarea id="editor" rows="10" cols="60" value={this.state.input} onChange={this.handleChange}></textarea>
@@ -50,7 +46,6 @@ class Main extends React.Component {
         );
     }
 }
-
 
 
 ReactDOM.render(<Main />, document.getElementById('root'));
