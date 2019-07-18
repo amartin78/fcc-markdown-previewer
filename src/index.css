@@ -3,17 +3,42 @@ body {
   font-family: "Verdana", "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
+  overflow-x: hidden;
 }
 
 #root {
-  display: flex;
-  height: 100vh;
-  justify-content: center;
+  /* height: 100vh; */
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 40vw 40vw;
+  grid-template-rows: 100vh;
+  /* grid-gap: 10vw; */
+  justify-content: space-evenly;
+  /* height: 100vh; */
+  /* align-items: center; */
 }
 
 #editor {
-  margin-top: 20vh;
-  margin-bottom: 10vh;
+  grid-area: 1/1/2/2;
+  padding: 6rem;
+  border: 1px solid orange;
+  background-color: blanchedalmond;
+  align-self: center;
+  outline-style: none;
+}
+
+#preview {
+  grid-area: 1/2/2/3;
+  padding: 6rem;
+  border: 1px solid orange;
+  background-color: blanchedalmond;
+  overflow-wrap: break-word;
+  overflow-y: scroll;
+  align-self: center;
+  height: 40vh;
+  outline-style: none;
 }
 
 code {

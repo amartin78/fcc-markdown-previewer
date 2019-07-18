@@ -39,9 +39,9 @@ class Main extends React.Component {
 
     render() {
         return (
-            <div>
-                <textarea id="editor" rows="10" cols="60" value={this.state.input} onChange={this.handleChange}></textarea>
-                <div id="preview" dangerouslySetInnerHTML={{__html:marked(this.state.input)}}></div>
+            <div className="container">
+                <textarea id="editor" rows="20" cols="60" value={this.state.input} onChange={this.handleChange}></textarea>
+                <div id="preview" dangerouslySetInnerHTML={{__html: marked(this.state.input)}}></div>
             </div>
         );
     }
