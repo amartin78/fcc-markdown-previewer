@@ -1,2 +1,0 @@
-body{margin:0;font-family:Verdana,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;overflow-x:hidden}.container{display:grid;grid-template-columns:40vw 40vw;grid-template-rows:100vh;justify-content:space-evenly}#editor{grid-area:1/1/2/2}#editor,#preview{padding:6rem;border:1px solid orange;background-color:#ffebcd;align-self:center;outline-style:none}#preview{grid-area:1/2/2/3;overflow-wrap:break-word;overflow-y:scroll;height:40vh}code{white-space:pre-wrap}img{width:20%;height:20%}
-/*# sourceMappingURL=main.221af82f.chunk.css.map */
