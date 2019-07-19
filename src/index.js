@@ -38,6 +38,7 @@ class Main extends React.Component {
     }
 
     render() {
+        let rawHTML = marked(this.state.input);
         return (
             <div className="container">
                 <textarea id="editor" rows="20" cols="60" value={this.state.input} onChange={this.handleChange}></textarea>
