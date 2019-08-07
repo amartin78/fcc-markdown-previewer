@@ -39,7 +39,7 @@ pre {
   white-space: pre-wrap;
   background-color: black;
   color: chartreuse;
-  padding: 0.6rem;
+  padding: 0.5rem;
   width: auto;
 }
 
@@ -48,7 +48,7 @@ p code {
   white-space: pre-wrap;
   background-color: black;
   color: chartreuse;
-  padding: 0.6rem; 
+  padding: 0.5rem; 
   line-height: 2rem;
 }
 
