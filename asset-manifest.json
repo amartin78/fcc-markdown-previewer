@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/fcc-markdown-previewer/static/css/main.7d4173a3.chunk.css",
+    "main.css": "/fcc-markdown-previewer/static/css/main.9d7f820d.chunk.css",
     "main.js": "/fcc-markdown-previewer/static/js/main.92d343fa.chunk.js",
     "main.js.map": "/fcc-markdown-previewer/static/js/main.92d343fa.chunk.js.map",
     "runtime~main.js": "/fcc-markdown-previewer/static/js/runtime~main.9e892b9e.js",
@@ -8,8 +8,8 @@
     "static/js/2.0a811e8a.chunk.js": "/fcc-markdown-previewer/static/js/2.0a811e8a.chunk.js",
     "static/js/2.0a811e8a.chunk.js.map": "/fcc-markdown-previewer/static/js/2.0a811e8a.chunk.js.map",
     "index.html": "/fcc-markdown-previewer/index.html",
-    "precache-manifest.390334e586ac7c7c38d19c47306b192a.js": "/fcc-markdown-previewer/precache-manifest.390334e586ac7c7c38d19c47306b192a.js",
+    "precache-manifest.765c8d529b86e0a44b3de636c8899cc3.js": "/fcc-markdown-previewer/precache-manifest.765c8d529b86e0a44b3de636c8899cc3.js",
     "service-worker.js": "/fcc-markdown-previewer/service-worker.js",
-    "static/css/main.7d4173a3.chunk.css.map": "/fcc-markdown-previewer/static/css/main.7d4173a3.chunk.css.map"
+    "static/css/main.9d7f820d.chunk.css.map": "/fcc-markdown-previewer/static/css/main.9d7f820d.chunk.css.map"
   }
 }
