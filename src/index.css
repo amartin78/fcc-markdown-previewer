@@ -36,15 +36,20 @@ body {
 }
 
 pre {
-  background-color: black;
-  color: green;
-  padding: 0.6rem;
-}
-
-code {
   white-space: pre-wrap;
   background-color: black;
-  color: green;
+  color: chartreuse;
+  padding: 0.6rem;
+  width: auto;
+}
+
+p code {
+  white-space: pre-wrap;
+  white-space: pre-wrap;
+  background-color: black;
+  color: chartreuse;
+  padding: 0.6rem; 
+  line-height: 2rem;
 }
 
 img {
